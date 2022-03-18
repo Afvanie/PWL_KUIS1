@@ -10,12 +10,13 @@ class PageController extends Controller
     {
         return view('blog.home', ['title' => '- Home']);
     }
-    public function about()
-    {
-        return view('about', ['title' => '- Tentang Kami']);
-    }
+    
     public function contact()
     {
         return view('blog.contact-us', ['title' => '- Kontak Kami']);
+    }
+    public function about()
+    {
+        return view('blog.about-us', ['title' => '- Tentang Kami']);
     }
 }

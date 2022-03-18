@@ -16,5 +16,5 @@ use App\Http\Controllers\PageController;
 
 Route::get('/', [PageController::class, 'home']);
 Route::get('/home', [PageController::class, 'main']);
-Route::get('/about', [PageController::class, 'about']);
+Route::get('/about-us', [PageController::class, 'about']);
 Route::get('/contact-us', [PageController::class, 'contact']);
