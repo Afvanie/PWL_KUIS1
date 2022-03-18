@@ -27,7 +27,6 @@
                                 <p>
                                 Burger King Indonesia merupakan perusahaan publik yang bergerak dalam bidang ritel makanan cepat saji dan bermarkas di Jakarta, Indonesia. Perusahaan ini merupakan pemegang hak waralaba tunggal Burger King di Indonesia.
                                 </p>
-                                <a class="btn custom-btn" href="">Book A Table</a>
                             </div>
                         </div>
                     </div>
