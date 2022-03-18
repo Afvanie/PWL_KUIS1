@@ -14,4 +14,8 @@ class PageController extends Controller
     {
         return view('about', ['title' => '- Tentang Kami']);
     }
+    public function contact()
+    {
+        return view('blog.contact-us', ['title' => '- Kontak Kami']);
+    }
 }
