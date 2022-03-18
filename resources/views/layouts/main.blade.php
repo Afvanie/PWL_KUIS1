@@ -38,50 +38,7 @@
             <div class="container-fluid">
                 <div class="owl-carousel">
                     <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="style/img/carousel-1.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h1>Best <span>Quality</span> Ingredients</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus ut mollis mauris. Vivamus egestas eleifend dui ac consequat at lectus in malesuada
-                            </p>
-                            <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">View Menu</a>
-                                <a class="btn custom-btn" href="">Book Table</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="style/img/carousel-2.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h1>World’s <span>Best</span> Chef</h1>
-                            <p>
-                                @yield('content')
-                            </p>
-                            <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">View Menu</a>
-                                <a class="btn custom-btn" href="">Book Table</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-img">
-                            <img src="style/img/carousel-3.jpg" alt="Image">
-                        </div>
-                        <div class="carousel-text">
-                            <h1>Fastest Order <span>Delivery</span></h1>
-                            <p>
-                                Sed ultrices, est eget feugiat accumsan, dui nibh egestas tortor, ut rhoncus nibh ligula euismod quam. Proin pellentesque odio
-                            </p>
-                            <div class="carousel-btn">
-                                <a class="btn custom-btn" href="">View Menu</a>
-                                <a class="btn custom-btn" href="">Book Table</a>
-                            </div>
-                        </div>
-                    </div>
+                        @yield('content')
                 </div>
             </div>
         </div>
