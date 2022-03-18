@@ -6,9 +6,9 @@
                             <div class="col-md-6">
                                 <div class="footer-contact">
                                     <h2>Our Address</h2>
-                                    <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
+                                    <p><i class="fa fa-map-marker-alt"></i>Jl. Kesehatan IV Jl. Cideng Timur No.26, Petojo Utara, Kecamatan Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10130</p>
                                     <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                                    <p><i class="fa fa-envelope"></i>info@example.com</p>
+                                    <p><i class="fa fa-envelope"></i>BurgerKing@gmail.com</p>
                                     <div class="footer-social">
                                         <a href=""><i class="fab fa-twitter"></i></a>
                                         <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -34,7 +34,7 @@
                         <div class="footer-newsletter">
                             <h2>Newsletter</h2>
                             <p>
-                                Lorem ipsum dolor sit amet elit. Quisque eu lectus a leo dictum nec non quam. Tortor eu placerat rhoncus, lorem quam iaculis felis, sed lacus neque id eros.
+                            NiQmatin Purple Seoul Beef Burger dengan #KINGREDIENTS 100% daging sapi panggang ASLI Australia, special sweet spicy soy sauce, fried purple cabbage, 2pc long rasher, shredded mozzarella, dan pastinya bun bertabur wijen lembut khas Burger King 💜
                             </p>
                             <div class="form">
                                 <input class="form-control" placeholder="Email goes here">
@@ -46,7 +46,7 @@
             </div>
             <div class="copyright">
                 <div class="container">
-                    <p>Copyright &copy; <a href="#">Your Site Name</a>, All Right Reserved.</p>
+                    <p>Copyright &copy; <a href="#">Kelompok 10</a>, All Right Reserved.</p>
                     <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
                 </div>
             </div>
