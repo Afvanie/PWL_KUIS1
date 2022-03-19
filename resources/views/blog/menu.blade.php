@@ -1,7 +1,9 @@
-@extends('layoufsdfhdh')
+@extends('layouts.Makanan')
 
-@section('cont')
 
+@section('tittle')
+    {{ $title }}
+@section('content')
         <!-- Menu Start -->
         <div class="menu">
             <div class="container">
