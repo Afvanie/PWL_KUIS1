@@ -2,12 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
-<<<<<<< HEAD
 use App\Http\Controllers\MenuController;
 use App\Http\Controllers\PelangganController;
-=======
-use App\Http\Controllers\PegawaiController;
->>>>>>> 620a12f34b37823e397fa5e2a323b4ccfaf82b71
 
 /*
 |--------------------------------------------------------------------------
@@ -24,9 +20,5 @@ Route::get('/', [PageController::class, 'home']);
 Route::get('/home', [PageController::class, 'main']);
 Route::get('/about-us', [PageController::class, 'about']);
 Route::get('/contact-us', [PageController::class, 'contact']);
-<<<<<<< HEAD
 Route::get('/menu', [MenuController::class, 'index']);
 Route::get('/pelanggan', [PelangganController::class, 'index']);
-=======
-Route::get('/pegawai', [PegawaiController::class, 'index']);
->>>>>>> 620a12f34b37823e397fa5e2a323b4ccfaf82b71
