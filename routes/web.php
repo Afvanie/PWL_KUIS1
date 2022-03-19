@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\MenuController;
+use App\Http\Controllers\PelangganController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,4 @@ Route::get('/home', [PageController::class, 'main']);
 Route::get('/about-us', [PageController::class, 'about']);
 Route::get('/contact-us', [PageController::class, 'contact']);
 Route::get('/menu', [MenuController::class, 'index']);
+Route::get('/pelanggan', [PelangganController::class, 'index']);

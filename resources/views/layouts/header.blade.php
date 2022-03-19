@@ -9,9 +9,9 @@
                     <div class="navbar-nav ml-auto">
                         <a href="\" class="nav-item nav-link active">Home</a>
                         <a href="about-us" class="nav-item nav-link">About</a>
-                        <a href="menus" class="nav-item nav-link">Menu</a>
+                        <a href="menu" class="nav-item nav-link">Menu</a>
                         <a href="team.html" class="nav-item nav-link">Chef</a>
-                        <a href="feature.html" class="nav-item nav-link">Pelanggan</a>
+                        <a href="pelanggan" class="nav-item nav-link">Pelanggan</a>
                         <a href="booking.html" class="nav-item nav-link">Supplier</a>
                         <a href="contact-us" class="nav-item nav-link">Contact</a>
                     </div>
