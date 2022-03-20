@@ -1,6 +1,6 @@
-@extends('layoufsdfhdh')
+@extends('layouts.makanan')
 
-@section('cont')
+@section('content')
 
         <!-- Menu Start -->
         <div class="menu">

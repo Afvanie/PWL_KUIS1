@@ -10,7 +10,7 @@
                 <p>Our Team</p>
                  <h2>Our Master Chef</h2>
             </div>
-             @foreach($pegawai as $p)
+             @foreach($pegawais as $p)
                                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
