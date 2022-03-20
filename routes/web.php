@@ -3,7 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\MenuController;
+use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\PelangganController;
+use App\Http\Controllers\SupplierController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,5 +22,7 @@ Route::get('/', [PageController::class, 'home']);
 Route::get('/home', [PageController::class, 'main']);
 Route::get('/about-us', [PageController::class, 'about']);
 Route::get('/contact-us', [PageController::class, 'contact']);
+Route::get('/pegawai', [PegawaiController::class, 'index']);
 Route::get('/menu', [MenuController::class, 'index']);
 Route::get('/pelanggan', [PelangganController::class, 'index']);
+Route::get('/supplier', [SupplierController::class, 'index']);

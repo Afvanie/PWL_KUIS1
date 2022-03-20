@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class MenuSeeder extends Seeder
 {
@@ -56,6 +57,6 @@ class MenuSeeder extends Seeder
 
             ],
         ];
-        \DB::table('menus')->insert($data);
+        DB::table('menus')->insert($data);
     }
 }

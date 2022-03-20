@@ -46,13 +46,8 @@ class PegawaiSeeder extends Seeder
                 'gambar' => 'https://cdn-cas.orami.co.id/parenting/images/Chef_Degan_www.tagar.id.width-800.jpg',
                 'deskripsi' => 'Degan Septoadji merupakan chef Indonesia terbaik yang namanya juga sangat dikenal oleh masyarakat Indonesia karena pernah tampil sebagai juru Master 
                 Chef Indonesia pada musim kedua, dan ketiga.'
-            ],
-            [
-                'nama' => 'Chandra Yudasswara',
-                'gambar' => 'https://cdn-cas.orami.co.id/parenting/images/Chef_Degan_www.tagar.id.width-800.jpg',
-                'deskripsi' => 'Chandra Yudasswara dikenal sebagai chef Indonesia yang punya ciri khas masakan dengan tampilan yang sangat estetik'
             ]
         ];
-        DB::table('pegawai')->insert($data);
+        DB::table('pegawais')->insert($data);
     }
 }
