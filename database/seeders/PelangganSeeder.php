@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class PelangganSeeder extends Seeder
 {
@@ -42,6 +43,6 @@ class PelangganSeeder extends Seeder
                 'konten' => 'Makanan disini sangat lezat dan memuaskan pelayanannya juga sangat baik',
             ],
         ];
-        \DB::table('pelanggans')->insert($data);
+        DB::table('pelanggans')->insert($data);
     }
 }
